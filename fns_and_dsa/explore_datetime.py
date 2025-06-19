@@ -1,6 +1,6 @@
 from datetime import datetime , timedelta
 def display_current_datetime():
-    current_date = datetime.now()
+    current_date = datetime.now().replace(microsecond=0)
     return current_date
 
 print(f"Current date and time: {display_current_datetime()}")
