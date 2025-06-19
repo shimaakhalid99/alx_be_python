@@ -12,7 +12,7 @@ def convert_to_fahrenheit(celsius):
     return result
 
 user_input = float(input("Enter the temperature to convert: "))
-ask_input = input("Is this temperature is Celsius or Fahrenheit? (C/F): ")
+ask_input = input("Is this temperature in Celsius or Fahrenheit? (C/F): ")
 if ask_input == 'C':
     print(f"{user_input}°C is {convert_to_fahrenheit(user_input)}°F")
 elif ask_input == 'F':
